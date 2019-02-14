@@ -13,13 +13,33 @@ export class AppComponent {
     {
       title: 'Home',
       url: '/home',
-      icon: 'home'
+      icon: 'list'
     },
     {
-      title: 'List',
-      url: '/list',
+      title: 'Top News',
+      url: '/news',
       icon: 'list'
-    }
+    },
+    {
+      title: 'Headlines',
+      url: '/headlines',
+      icon: 'list'
+    },
+    {
+      title: 'Sources',
+      url: '/sources',
+      icon: 'list'
+    },
+    {
+      title: 'Settings',
+      url: '/settings',
+      icon: 'list'
+    },
+    {
+      title: 'Account',
+      url: '/account',
+      icon: 'person'
+    },
   ];
 
   constructor(

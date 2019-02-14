@@ -1,0 +1,14 @@
+
+             <ion-card (click)="readFullNews(article)">
+            <ion-img *ngIf="article.urlToImage" [src]="article.urlToImage"></ion-img>
+            <ion-card-header>
+              <ion-card-subtitle
+                >Published: {{ article.publishedAt | date: 'medium'}} | Source:
+                {{ article.source.name }}</ion-card-subtitle
+              >
+              <ion-card-title>{{ article.title }}</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              {{ article.content }}
+            </ion-card-content>
+          </ion-card>

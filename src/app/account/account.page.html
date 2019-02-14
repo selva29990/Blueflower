@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+    <ion-title>My Account</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    
+  <ion-item>
+    <ion-label position="floating" for="name">Nick name</ion-label>
+    <ion-input [(ngModel)]="name" id="name" name="name" placeholder="Enter Your Nick name" 
+    required></ion-input>
+  </ion-item>
+  <ion-button expand="block" (click)="submitMyDetails()">Submit</ion-button>
+</ion-content>

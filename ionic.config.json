@@ -1,5 +1,7 @@
 {
   "name": "iVeedu",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
